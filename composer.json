@@ -1,0 +1,36 @@
+{
+    "name": "kurpievski/base-api-sdk-php",
+    "description": "Common component for API SDK.",
+    "keywords": [
+        "framework",
+        "cointed",
+        "exchange"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7",
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/psr7": "^1.4",
+        "symfony/property-access": "^3.3",
+        "symfony/serializer": "^3.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.10@dev",
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseApi\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BaseApi\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
